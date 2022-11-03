@@ -8,11 +8,12 @@
  */
 
  let autoPrecio = 5300000;
- let modelo = "Volkswagen Golf";
+ let modelo = "Volkswagen Golf GTI 2022";
  alert("Comprá tu" + " " + modelo + " " + "0KM");
  let cuotas = parseInt(prompt("Ingrese cantidad de cuotas: 1, 6, 12 o 18"));
  let = cantidadCuotas = cuotas;
- console.log("Volkswagen Golf 0KM");
+
+ console.log("Volkswagen Golf GTI 2022 0KM");
 
  do {
     if (cantidadCuotas == 1) {
@@ -32,5 +33,5 @@
     }
     break;
  }
-
+ 
  while (cuotas == 1 || cuotas == 6 || cuotas == 12 || cuotas == 18);
