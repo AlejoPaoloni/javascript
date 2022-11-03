@@ -12,8 +12,8 @@
  alert("Comprá tu" + " " + modelo + " " + "0KM");
  let cuotas = parseInt(prompt("Ingrese cantidad de cuotas: 1, 6, 12 o 18"));
  let = cantidadCuotas = cuotas;
-
- console.log("Volkswagen Golf GTI 2022 0KM");
+ 
+ console.log("Volkswagen Golf 0KM");
 
  do {
     if (cantidadCuotas == 1) {
