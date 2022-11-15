@@ -78,32 +78,3 @@ while (seleccionarAuto != "no") {
 
 const total = carrito.reduce((acc, el) => acc + el.precio * el.unidades, 0)
 console.log(`El total a pagar por su compra es: ${total}`)
-
-// function autoElegido() {
-
-//     let resultado = autos.filter(auto => auto.marca == elegirAuto)
-// }
-
-// for (let auto of resultado) {
-//     alert(`El ${auto.marca} vale $${auto.precio}`)
-// }
-
-// if (elegirAuto == "x") {
-//     let resultado2 = autos.filter(auto => auto.precio != 0)
-
-//     let autosPrecio = resultado2.map(los => {return {
-//         marca: la.marca
-//     }
-// }
-// )
-
-// alert(`Los autos disponibles son ${autosPrecio.join(", ")}`) 
-
-// }
-
-// let salida = ""
-// for (const auto of autos) {
-//     salida = salida + auto.marca + " " + auto.precio + "\n"
-// }
-// alert(salida)
-
